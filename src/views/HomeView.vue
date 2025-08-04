@@ -1,5 +1,10 @@
 <script setup lang="ts">
+import { config } from '@/config'
 // TODO
+console.log(config.apiBaseUrl)
+console.log(config.appTitle)
+console.log(config.isMock)
+console.log(config.isDev)
 </script>
 
 <template>
